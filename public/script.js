@@ -3,6 +3,7 @@ const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
 const showChat = document.querySelector("#showChat");
 const backBtn = document.querySelector(".header__back");
+
 myVideo.muted = true;
 
 backBtn.addEventListener("click", () => {
