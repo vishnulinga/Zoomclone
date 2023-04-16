@@ -6,6 +6,7 @@ const backBtn = document.querySelector(".header__back");
 
 myVideo.muted = true;
 
+
 backBtn.addEventListener("click", () => {
   document.querySelector(".main__left").style.display = "flex";
   document.querySelector(".main__left").style.flex = "1";
