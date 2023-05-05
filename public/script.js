@@ -54,6 +54,7 @@ var peer = new Peer({
   debug: 3
 });
 
+
 let myVideoStream;
 navigator.mediaDevices
   .getUserMedia({
@@ -86,6 +87,7 @@ const connectToNewUser = (userId, stream) => {
     addVideoStream(video, userVideoStream);
   });
 };
+
 
 peer.on("open", (id) => {
   console.log('my id is' + id);
